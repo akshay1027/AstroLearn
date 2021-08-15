@@ -1,0 +1,8 @@
+node_modules/
+build/
+dist/
+data/
+public/
+server/config/*
+!src/config/globals.ts
+.vscode/
