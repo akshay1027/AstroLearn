@@ -92,7 +92,7 @@ export const LandingPageForm = (params) => {
                             aria-label="Name"
                             error={nameError !== ''}
                             value={name}
-                            style={{ backgroundColor: '#fafafa', fontSize: '16px', color: '#FFFFFF' }}
+                            style={{ backgroundColor: '#fafafa', fontSize: '16px', color: '#31343c' }}
                             onChange={(e) => {
                                 setNameError('');
                                 setName(e.target.value);
@@ -108,7 +108,7 @@ export const LandingPageForm = (params) => {
                             aria-label="Email"
                             error={emailError !== ''}
                             value={email}
-                            style={{ backgroundColor: '#fafafa', fontSize: '16px', color: '#FFFFFF' }}
+                            style={{ backgroundColor: '#fafafa', fontSize: '16px', color: '#31343c' }}
                             onChange={(e) => {
                                 setemailError('');
                                 setemail(e.target.value);
@@ -124,7 +124,7 @@ export const LandingPageForm = (params) => {
                             aria-label="Message"
                             multiline
                             value={message}
-                            style={{ backgroundColor: '#fafafa', fontSize: '16px', height: '160px', display: 'flex', flexDirection: 'column', color: '#FFFFFF' }}
+                            style={{ backgroundColor: '#fafafa', fontSize: '16px', height: '160px', display: 'flex', flexDirection: 'column', color: '#31343c' }}
                             onChange={(e) => {
                                 setmessage(e.target.value);
                             }}
